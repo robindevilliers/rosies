@@ -1,4 +1,4 @@
-$blue: #81b1cc;
+$pink: #ffd1dc;
 $pastel-orange: #ff964f;
 $pastel-red: #ff6961;
 $opal: #a9c8c0;
@@ -7,7 +7,7 @@ $pastel-mint: #cef0cc;
 $green: #cdf1af;
 
 $theme-colors: (
-        "primary": $blue,
+        "primary": $pink,
         "secondary" : $rajah,
         "success" : $green,
         "warning" : $pastel-orange,
@@ -15,6 +15,8 @@ $theme-colors: (
         "danger": $pastel-red
 );
 
+
+$primary: $pink;
 
 $enable-gradients: true;
 $enable-shadows: true;
@@ -96,7 +98,7 @@ $enable-shadows: true;
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    background-color: #e9ecef;
+    background-color: #fff;
     align-items: center;
 
     .title-main {
